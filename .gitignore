@@ -1,0 +1,25 @@
+# 本地环境与缓存
+/.idea/
+/.venv/
+__pycache__/
+*.pyc
+
+# 教学测试
+/测试1.py
+/测试2.py
+/day15_outputs/
+
+# 实验交付包中的训练产物
+/数据/*_rgb.pt
+/数据/*_features.pt
+/数据/autoencoder.pt
+
+# 完整训练与逐步评测日志
+/行为克隆/*.json
+/RSSM/*.json
+/CEM/*.json
+/正式评测结果/*_seed_*.json
+
+# 新运行的评测输出
+/正式评测抽查*/
+/正式评测复跑*/
