@@ -1,0 +1,42 @@
+{
+  "data_version": "local_rgb_v1",
+  "seeds": {
+    "map": 1500,
+    "split": 1501,
+    "sampling": 1502,
+    "encoder": 1503
+  },
+  "geometries": [
+    128,
+    24,
+    48
+  ],
+  "environment_sha256": "7bbf22125e106d05df7226362f300dfadd9f45a7c4a0a78389cc4164245a426a",
+  "data_code_sha256": "03c9571e35ce30f686750ebc510b6ac37cdd4e2bacca1cae3a03760154449bd6",
+  "manifest_sha256": "7cd6fded29be2318d25cd6bc554acee2786a60281e59e9481abf815cf0e55f05",
+  "encoder_sha256": "2c76bab9b1252471bbe05528cfef96362812f218d526e192b0e0fcb6b8d0330c",
+  "encoder_training_split": "train",
+  "encoder_epochs": 10,
+  "encoder_train_mse": [
+    0.020408796033811023,
+    0.0019671920973129762,
+    0.0009976243800019187,
+    0.0008823808249854168,
+    0.0008401710262118412,
+    0.0008205164405576174,
+    0.0008073866715481798,
+    0.0007990604170253294,
+    0.000793849324081259,
+    0.000787301266735372
+  ],
+  "device": "cuda",
+  "episodes": {
+    "train": 2825,
+    "val": 144
+  },
+  "valid_transitions": {
+    "train": 25007,
+    "val": 1347
+  },
+  "test_tasks": 288
+}
